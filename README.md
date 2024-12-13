@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness
+
+This repository demonstrates a common issue in Node.js where a long-running synchronous operation in the request handler can cause the server to hang and become unresponsive to new requests.  The provided code simulates this problem using a large loop. The solution demonstrates how to address this using asynchronous programming techniques to prevent blocking the event loop.
